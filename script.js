@@ -25,7 +25,7 @@
       await new Promise((resolve) => setTimeout(resolve, duration * 50));
       if (i === 2) {
         // console.log(duration);
-        await new Promise((resolve) => setTimeout(resolve, duration * 1000 + 250));
+        await new Promise((resolve) => setTimeout(resolve, duration * 1000));
         showResult(r);
       }
     }
