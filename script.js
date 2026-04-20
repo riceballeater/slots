@@ -61,7 +61,7 @@
         }
         // pool.push(...shuffle(arr));
         pool.push(...arr);
-        pool.push(...arr);
+        pool.push(...items);
         const popAmount = Math.floor(Math.random() * 6) + 1;
         rolls.push(popAmount);
         for (let m = 0; m < popAmount; m++) {
