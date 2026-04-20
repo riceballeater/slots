@@ -22,12 +22,12 @@
       const duration = parseInt(boxes.style.transitionDuration);
       // console.log(duration);
       boxes.style.transform = "translateY(0)";
-      await new Promise((resolve) => setTimeout(resolve, duration * 50));
       if (i === 2) {
         // console.log(duration);
         await new Promise((resolve) => setTimeout(resolve, duration * 1000));
         showResult(r);
       }
+      await new Promise((resolve) => setTimeout(resolve, duration * 50));
     }
   }
 
